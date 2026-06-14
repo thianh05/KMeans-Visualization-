@@ -1,24 +1,28 @@
-# Interactive K-Means Clustering Visualizer
+# K-Means Clustering Visualizer
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![PyPI - pygame](https://img.shields.io/badge/pygame-black?style=for-the-badge&logo=pygame)
 
+## I - Khái niệm:
+K-means là một thuật toán học máy không giám sát unsupervised learning được dùng để chia một tập hợp dữ liệu chưa gắn nhãn thành k cụm dựa trên các đặc điểm tương đồng và mục tiêu chính là nhóm các điểm dữ liệu sao cho khoảng cách giữa chúng trong cùng một cụm là nhỏ nhất.
+
+## II - Giới thiệu dự án:
+
 Một ứng dụng trực quan hóa thuật toán **K-Means Clustering** được xây dựng bằng Python. Dự án này giúp người dùng dễ dàng hiểu và quan sát cách thuật toán học không giám sát phân cụm dữ liệu theo từng bước thông qua giao diện đồ họa tương tác.
 
 ---
-
-## Tính năng nổi bật
-* * **Tương tác trực tiếp:** Thêm các điểm dữ liệu (data points) cực kỳ dễ dàng bằng cách click chuột trực tiếp lên không gian vẽ.
-* * **Tùy chỉnh linh hoạt:** Thay đổi số lượng cụm (K) mong muốn thông qua các nút `+` và `-`.
-* * **Chạy từng bước (Step-by-step):** Quan sát trực quan quá trình thuật toán tính toán khoảng cách Euclidean, gán nhãn dữ liệu và cập nhật lại vị trí các tâm cụm (centroids) mỗi khi nhấn nút `Run`.
-* * **Khởi tạo ngẫu nhiên:** Nút `Random` giúp chọn lại vị trí ngẫu nhiên cho các tâm cụm để quan sát cách thuật toán hội tụ từ nhiều điểm xuất phát khác nhau.
+## III - Các tính năng nổi bật:
+* **Tương tác trực tiếp:** Thêm các điểm dữ liệu (data points) cực kỳ dễ dàng bằng cách click chuột trực tiếp lên không gian vẽ.
+* **Tùy chỉnh linh hoạt:** Thay đổi số lượng cụm (K) mong muốn thông qua các nút `+` và `-`.
+* **Chạy từng bước (Step-by-step):** Quan sát trực quan quá trình thuật toán tính toán khoảng cách Euclidean, gán nhãn dữ liệu và cập nhật lại vị trí các tâm cụm (centroids) mỗi khi nhấn nút `Run`.
+* **Khởi tạo ngẫu nhiên:** Nút `Random` giúp chọn lại vị trí ngẫu nhiên cho các tâm cụm để quan sát cách thuật toán hội tụ từ nhiều điểm xuất phát khác nhau.
 * * **Đối chiếu với thư viện chuẩn:** Nút `Algorithm` gọi trực tiếp module `KMeans` từ thư viện `scikit-learn` để trả về kết quả phân cụm tối ưu ngay lập tức. Tính năng này rất hữu ích để so sánh với thuật toán tự triển khai.
-* * **Đo lường sai số:** Tự động tính toán và hiển thị trực tiếp giá trị **Error** (tổng khoảng cách từ các điểm dữ liệu đến tâm cụm tương ứng) ngay trên giao diện.
+* **Đo lường sai số:** Tự động tính toán và hiển thị trực tiếp giá trị **Error** (tổng khoảng cách từ các điểm dữ liệu đến tâm cụm tương ứng) ngay trên giao diện.
 
 ---
 
-##  Công nghệ & Thư viện sử dụng
+##  IV - Công nghệ và thư viện được sử dụng:
 
 | Công nghệ / Thư viện | Vai trò trong dự án |
 | :--- | :--- |
