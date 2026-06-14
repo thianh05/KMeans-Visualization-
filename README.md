@@ -1,6 +1,6 @@
 #  Interactive K-Means Clustering Visualizer
 
-Một ứng dụng trực quan hóa thuật toán **K-Means Clustering** được xây dựng bằng Python. Dự án này giúp người dùng dễ dàng hiểu và quan sát cách thuật toán học không giám sát phân cụm dữ liệu theo từng bước thông qua giao diện đồ họa tương tác.
+Một ứng dụng trực quan hóa thuật toán K-Means Clustering được xây dựng bằng Python. Dự án này giúp người dùng dễ dàng hiểu và quan sát cách thuật toán học không giám sát phân cụm dữ liệu theo từng bước thông qua giao diện đồ họa tương tác.
 
 ---
 
